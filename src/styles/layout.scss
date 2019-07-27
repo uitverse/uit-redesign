@@ -1,0 +1,30 @@
+@import "./config/variables.scss";
+@import "./html5.scss";
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Space Grotesk", monospace, sans-serif;
+}
+main {
+  margin: 0;
+}
+.marginPadded {
+  width: $width;
+  margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  .sidebar {
+    width: 30%;
+    flex: 1;
+  }
+  div {
+    flex: 3;
+  }
+}

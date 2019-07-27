@@ -1,0 +1,28 @@
+@import "./config/variables.scss";
+
+.hero {
+  display: flex;
+  width: $width;
+  margin: 1rem auto 5rem auto;
+  &--illustration {
+    margin-top: 2rem;
+    img {
+      height: auto;
+      margin-top: 1rem;
+    }
+  }
+  &--content {
+    margin-top: 2rem;
+  }
+  &--head {
+    font-size: 56px;
+    line-height: 62px;
+    padding-bottom: 5px;
+    letter-spacing: -1.4px;
+    margin-bottom: 21px;
+  }
+  &--description {
+    font-size: 1.1rem;
+    color: #888;
+  }
+}

@@ -1,0 +1,33 @@
+@import "./config/variables.scss";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: $width;
+  margin: 2rem auto;
+  .logo {
+    &--title {
+      font-size: 1.5rem;
+      line-height: 1rem;
+      font-weight: bolder;
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+    }
+  }
+  .links {
+    display: flex;
+    &--link {
+      color: #000;
+      text-decoration: none;
+      margin-right: 1rem;
+      &:hover {
+        color: rgba(0, 0, 0, 0.6);
+      }
+    }
+  }
+  .link-active {
+    font-weight: bold;
+  }
+}

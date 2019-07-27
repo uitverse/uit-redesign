@@ -1,0 +1,23 @@
+@import "./config/variables.scss";
+
+.notice {
+  border: 2px solid $primary-color;
+  border-radius: 10px;
+  padding: 5px 5px 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  p {
+    line-height: 10px;
+  }
+  &--action {
+    display: block;
+    text-decoration: none;
+    height: 10px;
+    line-height: 10px;
+    border: 2px solid $primary-color;
+    border-radius: 10px;
+    padding: 1rem;
+    color: #ffffff;
+    background: $primary-color;
+  }
+}

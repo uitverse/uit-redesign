@@ -1,0 +1,17 @@
+@import "./config/variables.scss";
+
+.sidebar {
+  margin-top: 0.5rem;
+  ul {
+    list-style: none;
+    padding-left: 0;
+    li a {
+      text-decoration: none;
+      color: $primary-color;
+      //font-weight: bold;
+      &.active {
+        text-decoration: underline;
+      }
+    }
+  }
+}

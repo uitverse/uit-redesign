@@ -1,0 +1,27 @@
+@import "./config/variables.scss";
+
+.papers {
+  border-left: 2px solid $primary-color;
+  padding-left: 1rem;
+  .paper {
+    padding: 4px 5px 5px 1rem;
+    &:nth-of-type(odd) {
+      background: #eeeeee;
+    }
+    div {
+      margin: 5px;
+    }
+    p {
+      line-height: 1;
+    }
+    a {
+      line-height: 3;
+      margin-right: 5px;
+    }
+  }
+  .flexbox {
+    margin: 0 !important;
+    display: flex;
+    justify-content: space-between;
+  }
+}

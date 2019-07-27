@@ -1,0 +1,17 @@
+@import "./config/variables.scss";
+
+.latestnews {
+  display: block;
+  background: $bg-secondary;
+  margin: 0;
+}
+.wrapper {
+  width: $width;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 1.5rem;
+}

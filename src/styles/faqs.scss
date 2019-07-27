@@ -1,0 +1,29 @@
+@import "./config/variables.scss";
+
+dd {
+  margin-bottom: 1rem;
+}
+dt {
+  cursor: pointer;
+}
+.icon {
+  margin: 1px 1rem 1px 1px;
+  color: $primary-color;
+}
+#faqlist {
+  min-height: 25em;
+}
+
+.slide-up,
+.slide-down {
+  max-height: 0;
+  overflow-y: hidden;
+  -webkit-transition: max-height 0.5s ease-in-out;
+  -moz-transition: max-height 0.5s ease-in-out;
+  -o-transition: max-height 0.5s ease-in-out;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.slide-down {
+  max-height: 25em;
+}
