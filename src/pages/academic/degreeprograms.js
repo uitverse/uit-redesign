@@ -3,10 +3,10 @@ import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
-import relations from "./relations"
+
 
 const DegreeProgramsPage = () => (
-  <Layout addMargin addSidebar={relations}>
+  <Layout addMargin addSidebar="academic">
     <SEO title="Degree Programs" />
     <h2>Degree Programs</h2>
     <p>

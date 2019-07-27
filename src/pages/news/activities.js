@@ -4,11 +4,11 @@ import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
 
-import { data } from "../../../data/news"
+import { data } from "../../../data/activity"
 
-const NewsPage = () => (
+const ActivitiesPage = () => (
   <Layout addMargin addSidebar="news">
-    <SEO title="News & Events" />
+    <SEO title="Uni Activities" />
     <div>
       {data.map((item, index) => {
         return (
@@ -24,4 +24,4 @@ const NewsPage = () => (
   </Layout>
 )
 
-export default NewsPage
+export default ActivitiesPage

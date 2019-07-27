@@ -4,7 +4,7 @@ import { HelpCircle } from "react-feather"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import "../../styles/faqs.scss"
-import relations from "./relations"
+
 
 const FAQPage = () => {
   useEffect(() => {
@@ -24,7 +24,7 @@ const FAQPage = () => {
   }, [])
 
   return (
-    <Layout addMargin addSidebar={relations}>
+    <Layout addMargin addSidebar="about">
       <SEO title="FAQs" />
       <dl id="faqlist">
         <dt className="faq-qs">

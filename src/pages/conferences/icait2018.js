@@ -3,11 +3,11 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
-import relations from "./relations"
+
 import Notice from "../../components/notice"
 
 const icait2017Page = () => (
-  <Layout addMargin addSidebar={relations}>
+  <Layout addMargin addSidebar="conferences">
     <SEO title="ICAIT 2018" />
     <Notice
       description="ICAIT 2018 has completely been held in November of 2018."

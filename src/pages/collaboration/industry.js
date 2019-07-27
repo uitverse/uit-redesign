@@ -3,10 +3,10 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
-import relations from "./relations"
+
 
 const industryPage = () => (
-  <Layout addMargin addSidebar={relations}>
+  <Layout addMargin addSidebar="collaboration">
     <SEO title="Industry Collaboration" />
     <h2>Industry Collaboration</h2>
     <p>

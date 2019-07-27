@@ -3,10 +3,10 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
-import relations from "./relations"
+
 
 const AcademicCalendarPage = () => (
-  <Layout addMargin addSidebar={relations}>
+  <Layout addMargin addSidebar="academic">
     <SEO title="Academic Calendar" />
     <h2>Academic Calendar</h2>
     <p>

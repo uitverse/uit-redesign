@@ -3,10 +3,10 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
-import relations from "./relations"
+
 
 const AdmissionPage = () => (
-  <Layout addMargin addSidebar={relations}>
+  <Layout addMargin addSidebar="academic">
     <SEO title="Admission" />
     <h2>Welcome to UIT</h2>
     <p>

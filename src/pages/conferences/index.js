@@ -3,10 +3,10 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
-import relations from "./relations"
+
 
 const conferencesPage = () => (
-  <Layout addMargin addSidebar={relations}>
+  <Layout addMargin addSidebar="conferences">
     <SEO title="ICAIT 2019" />
     <h2>CALL FOR PAPERS</h2>
     <p>
