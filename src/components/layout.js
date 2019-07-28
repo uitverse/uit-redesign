@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import LoadingScreen from "react-loading-screen"
+import Darkmode from "../../darkmode-js";
+
 import Navbar from "./navbar"
 import Sidebar from "./sidebar"
 import Footer from "./footer"
@@ -16,6 +18,15 @@ const Layout = ({ addMargin, addSidebar, children }) => {
     setTimeout(() => {
       toggleLoading(!isLoading)
     }, 100)
+    new Darkmode({
+      mixColor: '#fff', // default: '#fff'
+      backgroundColor: '#fff',  // default: '#fff'
+      buttonColorDark: '#100f2c',  // default: '#100f2c'
+      buttonColorLight: '#fff', // default: '#fff'
+      saveInCookies: false, // default: true,
+      label: '🌓', // default: ''
+      autoMatchOsTheme: true // default: true
+    }).showWidget();
   }, [])
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {

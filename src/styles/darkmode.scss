@@ -1,0 +1,26 @@
+@import "./config/variables.scss";
+
+.darkmode--activated {
+  .hero--head,
+  .latestnews h3,
+  .latestnews h4,
+  .latestnews p,
+  .hero3 span,
+  .news-page h4,
+  .news-page p,
+  .news-page a {
+    color: #dddddd;
+  }
+  .footer--description {
+    color: #000000;
+  }
+  .hero4 {
+    background: $bg-gradient;
+  }
+  .news div:hover {
+    background: #000000;
+  }
+  .paper:nth-of-type(even){
+    color: #fff;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react"
-
-import Layout from "../../../components//layout"
+import Fade from "react-reveal"
+import Layout from "../../../components/layout"
 import SEO from "../../../components/seo"
 
 import { data } from "../../../../data/papers"
@@ -14,21 +14,23 @@ const icait2017Papers = () => (
     {data.icait2017.map((inset, index) => (
       <div className="topic">
         <h3>{inset.topic}</h3>
-        <div className="papers">
-          {inset.papers.map((item, i) => (
-            <div className="paper">
-              <div>
-                <div className="flexbox">
-                  <p>{item.title}</p>
-                  <a href={item.link}>Download</a>
+        <Fade up cascade>
+          <div className="papers">
+            {inset.papers.map((item, i) => (
+              <div className="paper">
+                <div>
+                  <div className="flexbox">
+                    <p>{item.title}</p>
+                    <a href={item.link}>Download</a>
+                  </div>
+                  <p>
+                    <strong>{item.authors.join(", ")}</strong>
+                  </p>
                 </div>
-                <p>
-                  <strong>{item.authors.join(", ")}</strong>
-                </p>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        </Fade>
         <hr />
       </div>
     ))}

@@ -1,22 +1,25 @@
+import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import Fade from "react-reveal/Fade"
 
 import "../styles/sidebar.scss"
 
 const Sidebar = ({ items }) => (
   <div className="sidebar">
-    <ul>
-      {items.map((item, index) => {
-        return (
-          <li key={index}>
-            <Link to={item.link} alt={item.title} activeClassName="active">
-              {item.title}
-            </Link>
-          </li>
-        )
-      })}
-    </ul>
+    <Fade up cascade duration={500}>
+      <ul>
+        {items.map((item, index) => {
+          return (
+            <li key={index}>
+              <Link to={item.link} alt={item.title} activeClassName="active">
+                {item.title}
+              </Link>
+            </li>
+          )
+        })}
+      </ul>
+    </Fade>
   </div>
 )
 

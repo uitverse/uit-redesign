@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Frenco Jobs <frenco.willian@gmail.com>",
   "dependencies": {
+    "darkmode-js": "^1.4.0",
     "gatsby": "^2.13.18",
     "gatsby-image": "^2.2.6",
     "gatsby-plugin-manifest": "^2.2.3",
@@ -17,7 +18,8 @@
     "react-dom": "^16.8.6",
     "react-feather": "^2.0.3",
     "react-helmet": "^5.2.1",
-    "react-loading-screen": "0.0.17"
+    "react-loading-screen": "0.0.17",
+    "react-reveal": "^1.2.2"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

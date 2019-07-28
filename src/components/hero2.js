@@ -1,23 +1,27 @@
 import React from "react"
-
+import Fade from "react-reveal/Fade"
 import { data } from "../../data/latestnews"
 import "../styles/latestnews.scss"
 
 const LatestNews = () => (
   <section className="latestnews">
     <div className="wrapper">
-      <h3 className="header">Latest News</h3>
-      <div className="news">
-        {data.map((item, index) => {
-          return (
-            <div key={index}>
-              <h4>{item.title}</h4>
-              <p>{item.body}</p>
-              {/* {item.more ? <a href={item.more}>Read More</a> : ``} */}
-            </div>
-          )
-        })}
-      </div>
+      <Fade up>
+        <h3 className="header">Latest News</h3>
+        <Fade up cascade distance="30%">
+          <div className="news">
+            {data.map((item, index) => {
+              return (
+                <div key={index}>
+                  <h4>{item.title}</h4>
+                  <p>{item.body}</p>
+                  {/* {item.more ? <a href={item.more}>Read More</a> : ``} */}
+                </div>
+              )
+            })}
+          </div>
+        </Fade>
+      </Fade>
     </div>
   </section>
 )
