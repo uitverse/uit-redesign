@@ -1,5 +1,4 @@
 import React, { useEffect } from "react"
-
 import illustration from "../images/illustration.svg"
 import "../styles/hero.scss"
 

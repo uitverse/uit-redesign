@@ -2,12 +2,12 @@ module.exports = {
   data: [
     {
       title: "LOI Signing Ceremony",
-      body: `LOI Singing Ceremony between BDU, UIT and UTYCC for collaborated contents development course "Big Data Process"`,
+      body: `LOI Singing Ceremony between BDU, UIT and UTYCC`,
       more: "http://uit.edu.mm/LOI2019.html"
     },
     {
-      title: "Contents Development Training & Consulting I, 2019 ACU Project",
-      body: `Contents Development Training and Consulting I, 2019 ACU Project was held at UIT on 8 July, 2019.`,
+      title: "Contents Development Training & Consulting",
+      body: `Contents Development Training and Consulting I, 2019 ACU Project was held on 8 July, 2019.`,
       more: "http://uit.edu.mm/ACUProject2019.html"
     },
     {

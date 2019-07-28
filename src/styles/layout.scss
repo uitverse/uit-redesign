@@ -29,3 +29,13 @@ main {
     flex: 3;
   }
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid $primary-color;
+}
+mark {
+  background: white;
+  border-bottom: 2px solid $primary-color;
+}

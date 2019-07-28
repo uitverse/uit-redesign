@@ -1,5 +1,5 @@
 {
-  "name": "uit.edu",
+  "name": "uit-redesign",
   "private": true,
   "description": "Me and my team decided to do a UIT website experimental redesign",
   "version": "0.1.0",
@@ -11,36 +11,30 @@
     "gatsby-plugin-offline": "^2.2.3",
     "gatsby-plugin-react-helmet": "^3.1.2",
     "gatsby-plugin-sass": "^2.1.3",
-    "gatsby-plugin-sharp": "^2.2.6",
-    "gatsby-source-filesystem": "^2.1.5",
-    "gatsby-transformer-sharp": "^2.2.3",
     "node-sass": "^4.12.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-feather": "^2.0.3",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-loading-screen": "0.0.17"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx,scss}",
     "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "serve": "gatsby serve"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/frencojobs/uit-redesign"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/frencojobs/uit-redesign/issues"
   }
 }

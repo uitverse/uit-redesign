@@ -267,14 +267,14 @@ tr,
 td {
   vertical-align: baseline;
 }
-// hide scrollbar in chrome
-html {
-  overflow-y: scroll;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE 10+ */
-}
-html::-webkit-scrollbar {
-  /* WebKit */
-  width: 0;
-  height: 0;
-}
+// // hide scrollbar in chrome
+// html {
+//   overflow-y: scroll;
+//   scrollbar-width: none; /* Firefox */
+//   -ms-overflow-style: none; /* IE 10+ */
+// }
+// html::-webkit-scrollbar {
+//   /* WebKit */
+//   width: 0;
+//   height: 0;
+// }

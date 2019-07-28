@@ -10,7 +10,7 @@
       color: $primary-color;
       //font-weight: bold;
       &.active {
-        text-decoration: underline;
+        font-weight: bold;
       }
     }
   }

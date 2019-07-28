@@ -4,8 +4,6 @@ import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
-
-
 const ResearchPage = () => (
   <Layout addMargin addSidebar="research">
     <SEO title="Research" />

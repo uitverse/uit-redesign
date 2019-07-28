@@ -1,7 +1,7 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import LoadingScreen from "react-loading-screen"
 import Navbar from "./navbar"
 import Sidebar from "./sidebar"
 import Footer from "./footer"
@@ -10,6 +10,13 @@ import "../styles/layout.scss"
 import relations from "../../data/relations"
 
 const Layout = ({ addMargin, addSidebar, children }) => {
+  const [isLoading, toggleLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => {
+      toggleLoading(!isLoading)
+    }, 100)
+  }, [])
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -19,17 +26,22 @@ const Layout = ({ addMargin, addSidebar, children }) => {
       }
     }
   `)
-  const getRelations = name => relations.find(sect=> sect.section === name).content;
-
+  const getRelations = name =>
+    relations.find(sect => sect.section === name).content
   return (
-    <>
+    <LoadingScreen
+      loading={isLoading}
+      bgColor="#008080"
+      spinnerColor="#9ee5f8"
+      textColor="#676767"
+    >
       <Navbar siteTitle={data.site.siteMetadata.title} />
       <main className={addMargin ? "marginPadded" : ""}>
         {addSidebar ? <Sidebar items={getRelations(addSidebar)} /> : ``}
         <div>{children}</div>
       </main>
       <Footer />
-    </>
+    </LoadingScreen>
   )
 }
 

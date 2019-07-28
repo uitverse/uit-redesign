@@ -7,16 +7,17 @@ const LatestNews = () => (
   <section className="latestnews">
     <div className="wrapper">
       <h3 className="header">Latest News</h3>
-      {data.map((item, index) => {
-        return (
-          <div key={index}>
-            <h4>{item.title}</h4>
-            <p>{item.body}</p>
-            {item.more ? <a href={item.more}>Read More</a> : ``}
-            <hr />
-          </div>
-        )
-      })}
+      <div className="news">
+        {data.map((item, index) => {
+          return (
+            <div key={index}>
+              <h4>{item.title}</h4>
+              <p>{item.body}</p>
+              {/* {item.more ? <a href={item.more}>Read More</a> : ``} */}
+            </div>
+          )
+        })}
+      </div>
     </div>
   </section>
 )

@@ -3,7 +3,6 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
-
 import Notice from "../../components/notice"
 
 const icait2017Page = () => (

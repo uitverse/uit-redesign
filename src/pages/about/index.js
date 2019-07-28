@@ -3,11 +3,10 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
-
-
 const AboutPage = () => (
   <Layout addMargin addSidebar="about">
     <SEO title="About UIT" />
+
     <h2>Background Information of UIT</h2>
     <p>
       The University of Computer Studies, Yangon was firstly known as UCC in

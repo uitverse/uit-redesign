@@ -1,10 +1,8 @@
 import React, { useEffect } from "react"
 import { HelpCircle } from "react-feather"
-
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import "../../styles/faqs.scss"
-
 
 const FAQPage = () => {
   useEffect(() => {
@@ -26,6 +24,7 @@ const FAQPage = () => {
   return (
     <Layout addMargin addSidebar="about">
       <SEO title="FAQs" />
+
       <dl id="faqlist">
         <dt className="faq-qs">
           <HelpCircle className="icon" />

@@ -6,6 +6,7 @@ import SEO from "../../components/seo"
 const ContactPage = () => (
   <Layout addMargin addSidebar="about">
     <SEO title="Contact Us" />
+
     <h2>
       University of Information Technology, Parami Road, Hlaing Campus, Yangon,
       Myanmar

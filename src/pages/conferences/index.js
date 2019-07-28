@@ -3,8 +3,6 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
-
-
 const conferencesPage = () => (
   <Layout addMargin addSidebar="conferences">
     <SEO title="ICAIT 2019" />
