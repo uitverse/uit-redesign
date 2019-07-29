@@ -1,4 +1,5 @@
 @import "./config/variables.scss";
+@import "./config/mixins.scss";
 
 .latestnews {
   display: block;
@@ -20,6 +21,9 @@
   margin-bottom: 2rem;
   display: flex;
   justify-content: space-between;
+  @include respond-below(md) {
+    flex-direction: column;
+  }
   div {
     flex: 1;
     max-height: 300px;
