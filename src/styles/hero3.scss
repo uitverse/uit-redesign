@@ -1,10 +1,15 @@
 @import "./config/variables.scss";
+@import "./config/mixins.scss";
 
 .hero3 {
   display: flex;
   justify-content: space-between;
   width: $width;
-  margin: 5rem auto 5rem auto;
+  margin: 5rem auto;
+  @include respond-below(md) {
+    flex-direction: column;
+    margin: 5rem auto;
+  }
   div {
     display: flex;
     flex-direction: column;
@@ -15,6 +20,9 @@
     .hero3-text {
       margin-top: 1rem;
       font-size: 22px;
+      @include respond-below(md) {
+        margin: 0 0 1rem 0;
+      }
     }
   }
 }

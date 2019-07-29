@@ -8,7 +8,7 @@ const LatestNews = () => (
     <div className="wrapper">
       <Fade up>
         <h3 className="header">Latest News</h3>
-        <Fade up cascade distance="30%">
+        <Fade up cascade duration={300} distance="30%">
           <div className="news">
             {data.map((item, index) => {
               return (

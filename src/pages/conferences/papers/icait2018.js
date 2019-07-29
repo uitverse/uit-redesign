@@ -12,11 +12,11 @@ const icait2018Papers = () => (
     <SEO title="ICAIT 2018 Papers" />
     <h3>Papers Published in ICAIT 2018</h3>
     {data.icait2018.map((inset, index) => (
-      <div className="topic">
+      <div className="topic" key={index}>
         <h3>{inset.topic}</h3>
         <div className="papers">
           {inset.papers.map((item, i) => (
-            <div className="paper">
+            <div className="paper" key={i}>
               <div>
                 <div className="flexbox">
                   <p>{item.title}</p>

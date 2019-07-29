@@ -1,7 +1,7 @@
 @import "./config/variables.scss";
 
 footer {
-  background: #f2f2f2;
+  //background: #f2f2f2;
   color: #888;
   padding: 1rem 0;
   margin-top: 2rem;
@@ -10,6 +10,9 @@ footer {
     margin: 1rem auto;
     .footer--description {
       font-size: 0.9rem;
+      span {
+        color: $primary-color;
+      }
     }
     hr {
       border: 1px solid #ccc;

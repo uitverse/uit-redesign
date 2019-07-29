@@ -23,6 +23,7 @@
   justify-content: space-between;
   @include respond-below(md) {
     flex-direction: column;
+    margin-bottom: 0;
   }
   div {
     flex: 1;

@@ -1,11 +1,18 @@
 @import "./config/variables.scss";
+@import "./config/mixins.scss";
 
 .hero {
   display: flex;
   width: $width;
   margin: 5rem auto 5rem auto;
+  @include respond-below(lg) {
+    flex-direction: column;
+  }
   &--illustration {
-    margin-top: 2rem;
+    //margin-top: 2rem;
+    @include respond-below(lg) {
+      display: none;
+    }
     img {
       height: auto;
       margin-top: 1rem;
@@ -15,11 +22,17 @@
     margin-top: 2rem;
   }
   &--head {
-    font-size: 56px;
+    font-size: 60px;
     line-height: 62px;
     padding-bottom: 5px;
     letter-spacing: -1.4px;
     margin-bottom: 21px;
+    @include respond-below(md) {
+      font-size: 55px;
+    }
+    @include respond-below(sm) {
+      font-size: 50px;
+    }
   }
   &--description {
     font-size: 1.1rem;

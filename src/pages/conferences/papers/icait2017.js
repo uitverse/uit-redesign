@@ -12,12 +12,12 @@ const icait2017Papers = () => (
     <SEO title="ICAIT 2017 Papers" />
     <h3>Papers Published in ICAIT 2017</h3>
     {data.icait2017.map((inset, index) => (
-      <div className="topic">
+      <div className="topic" key={index}>
         <h3>{inset.topic}</h3>
         <Fade up cascade>
           <div className="papers">
             {inset.papers.map((item, i) => (
-              <div className="paper">
+              <div className="paper" key={i}>
                 <div>
                   <div className="flexbox">
                     <p>{item.title}</p>

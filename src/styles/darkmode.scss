@@ -1,4 +1,5 @@
 @import "./config/variables.scss";
+@import "./config/mixins.scss";
 
 .darkmode--activated {
   .hero--head,
@@ -8,7 +9,10 @@
   .hero3 span,
   .news-page h4,
   .news-page p,
-  .news-page a {
+  .news-page a,
+  .navbar .links--link,
+  .hamburger-menu,
+  .hamburger-menu:hover {
     color: #dddddd;
   }
   .footer--description {
@@ -20,7 +24,12 @@
   .news div:hover {
     background: #000000;
   }
-  .paper:nth-of-type(even){
+  @include respond-below(md) {
+    .links {
+      background: #000000;
+    }
+  }
+  .paper:nth-of-type(even) {
     color: #fff;
   }
 }

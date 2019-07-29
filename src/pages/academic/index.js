@@ -23,37 +23,28 @@ const AcademicPage = () => (
       networking, embedded system and computer system technology. .
     </p>
     <div>
-      <table>
-        <tbody>
-          <tr>
-            <td>
-              <ul>
-                <li>Undergraduate Programs</li>
-                <ul>
-                  <li>Five Years for Bachelor Program</li>
-                  <li>Examination</li>
-                  <ul>
-                    <li>exam (mark-based)</li>
-                    <li>Tutorial</li>
-                    <li>Practical</li>
-                  </ul>
-                </ul>
-              </ul>
-            </td>
-            <td>
-              <ul>
-                <li>Graduate Programs</li>
-                <ul>
-                  <li>Post Graduate Programs</li>
-                  <ul>
-                    <li>Post Graduate Diploma in Web Engineering</li>
-                  </ul>
-                </ul>
-              </ul>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <ul>
+        <li>Undergraduate Programs</li>
+        <ul>
+          <li>Five Years for Bachelor Program</li>
+          <li>Examination</li>
+          <ul>
+            <li>exam (mark-based)</li>
+            <li>Tutorial</li>
+            <li>Practical</li>
+          </ul>
+        </ul>
+      </ul>
+
+      <ul>
+        <li>Graduate Programs</li>
+        <ul>
+          <li>Post Graduate Programs</li>
+          <ul>
+            <li>Post Graduate Diploma in Web Engineering</li>
+          </ul>
+        </ul>
+      </ul>
     </div>
   </Layout>
 )

@@ -2,6 +2,7 @@
 @import "./font.scss";
 @import "./html5.scss";
 @import "./darkmode.scss";
+@import "./config/mixins.scss";
 
 html {
   font-family: sans-serif;
@@ -22,6 +23,12 @@ main {
   margin: 1rem auto;
   display: flex;
   flex-wrap: wrap;
+  @include respond-below(sm) {
+    flex-direction: column;
+    .sidebar {
+      widows: 100%;
+    }
+  }
   .sidebar {
     width: 30%;
     flex: 1;
