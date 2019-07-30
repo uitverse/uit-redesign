@@ -11,8 +11,8 @@ module.exports = {
       more: "http://uit.edu.mm/ACUProject2019.html"
     },
     {
-      title: "Education talk on Drug Absue",
-      body: `Education talk on Drug Absue was on 24th July, 2019 at University of Information Technology.`,
+      title: "Education talk on Drug Abuse",
+      body: `Education talk on Drug Abuse was held on 24th July, 2019 at University of Information Technology.`,
       more: "http://uit.edu.mm/drugabuse2019.html"
     }
   ]
