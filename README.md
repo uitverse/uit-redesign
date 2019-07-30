@@ -20,7 +20,9 @@
  [@frencojobs](https://github.com/frencojobs) - idea, opinions, data, code  
  [@naisoehtut](https://github.com/test1-test1) - idea, opinions  
  [@ChanMyaeHtoo](https://github.com/ChanMyaeHtoo) - idea, opinions, data  
- .. & 4 others
+ [@kzackl](https://github.com/kzackl) - idea, opinions
+ [@Nova2Shine](https://github.com/Nova2Shine) - idea, opinions
+ .. & 2 others
  
  ## Tools and Utilites
  
