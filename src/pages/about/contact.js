@@ -33,7 +33,7 @@ const ContactPage = () => (
       </tbody>
     </table>
     <br />
-    <span>The nearest but-stop : AD, Pyay Road </span>
+    <span>The nearest bus-stop : AD, Pyay Road </span>
   </Layout>
 )
 
