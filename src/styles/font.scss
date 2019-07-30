@@ -1,19 +1,17 @@
 @font-face {
   font-family: "Space Grotesk";
-  src: local("Space Grotesk"),
-    url(/fonts/spacegrotesk-regular-webfont.woff2) format("woff2"),
+  src: url(/fonts/spacegrotesk-regular-webfont.woff2) format("woff2"),
     url(/fonts/spacegrotesk-regular-webfont.woff) format("woff"),
     url(/fonts/spacegrotesk-regular-webfont.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: "Space Grotesk";
-  src: local("Space Grotesk"),
-    url(/fonts/spacegrotesk-bold-webfont.woff2) format("woff2"),
+  src: url(/fonts/spacegrotesk-bold-webfont.woff2) format("woff2"),
     url(/fonts/spacegrotesk-bold-webfont.woff) format("woff");
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
