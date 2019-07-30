@@ -6,14 +6,14 @@ import Fade from "react-reveal/Fade"
 import "../styles/navbar.scss"
 
 const Navbar = ({ siteTitle }) => {
-  const [isOpen, toggleMenu] = useState(false);
-  useEffect(()=>{
-    if(isOpen) {
-      document.getElementsByClassName("links")[0].classList.remove("hide");
+  const [isOpen, toggleMenu] = useState(false)
+  useEffect(() => {
+    if (isOpen) {
+      document.getElementsByClassName("links")[0].classList.remove("hide")
     } else {
-      document.getElementsByClassName("links")[0].classList.add("hide");
+      document.getElementsByClassName("links")[0].classList.add("hide")
     }
-  },[isOpen])
+  }, [isOpen])
 
   return (
     <header className="navbar">
@@ -24,7 +24,9 @@ const Navbar = ({ siteTitle }) => {
           </Link>
         </div>
       </div>
-      <div className="hamburger-menu" onClick={()=>toggleMenu(!isOpen)}>Menu</div>
+      <div className="hamburger-menu" onClick={() => toggleMenu(!isOpen)}>
+        Menu
+      </div>
       <Fade up cascade duration={300}>
         <div className="links hide">
           <Link

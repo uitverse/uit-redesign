@@ -21,7 +21,7 @@ const Layout = ({ addMargin, addSidebar, children }) => {
     new Darkmode({
       mixColor: "#fff", // default: '#fff'
       backgroundColor: "#fff", // default: '#fff'
-      buttonColorDark: "#100f2c", // default: '#100f2c'
+      buttonColorDark: "#000", // default: '#100f2c'
       buttonColorLight: "#fff", // default: '#fff'
       saveInCookies: false, // default: true,
       label: "🌓", // default: ''

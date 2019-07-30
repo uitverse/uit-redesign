@@ -47,3 +47,8 @@ mark {
   background: white;
   border-bottom: 2px solid $primary-color;
 }
+
+.darkmode-toggle {
+  color: #ffffff;
+  z-index: 9999999;
+}
