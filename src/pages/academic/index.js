@@ -20,7 +20,7 @@ const AcademicPage = () => (
       and postgraduate such as Bachelor's Degree, Master's Degree, Diploma and
       Ph.D. Degree in a wider range of subject areas: software engineering, high
       performance computing, business information system, communication and
-      networking, embedded system and computer system technology. .
+      networking, embedded system and computer system technology.
     </p>
     <div>
       <ul>

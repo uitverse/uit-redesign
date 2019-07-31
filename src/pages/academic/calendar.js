@@ -188,7 +188,7 @@ const AcademicCalendarPage = () => (
           <td align="center">10</td>
           <td>19.6.2019</td>
           <td>
-            Educative Talk on Drug Absue &amp; Essay Competition for Drug Absue
+            Educative Talk on Drug Abuse &amp; Essay Competition for Drug Abuse
             Prevention
           </td>
         </tr>

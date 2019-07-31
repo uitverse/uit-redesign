@@ -44,11 +44,11 @@ a {
   border-bottom: 1px solid $primary-color;
 }
 mark {
-  background: white;
+  background: $white-color;
   border-bottom: 2px solid $primary-color;
 }
 
 .darkmode-toggle {
-  color: #ffffff;
+  color: $white-color;
   z-index: 9999999;
 }

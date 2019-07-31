@@ -11,7 +11,7 @@
     padding: 6rem 0 2rem 0;
     font-weight: bold;
     font-size: 40px;
-    color: #ffffff;
+    color: $white-color;
     hyphens: auto;
     @include respond-below(md) {
       font-size: 35px;
@@ -23,6 +23,6 @@
   .quoter {
     padding-bottom: 6rem;
     font-size: 20px;
-    color: #ffffff;
+    color: $white-color;
   }
 }

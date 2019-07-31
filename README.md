@@ -2,16 +2,23 @@
 
 ## Folder Structure
 ```
-|--src
-|-----pages  # main content pages
-|-----components # components, modularized with intuitive names
-|-----styles # styles, with scss
-|-----images # to use with sharp processing
-|--data # data .. news, and papers 
-|--darkmode-js # darkmode-js plugin, modified to work correctly on react
-|--static
-|-----fonts # fonts
-|-----images # un-process-able images
+uit-redesign
+├── data          # data .. news, and papers 
+├── static
+│ ├── fonts
+│ ├── images
+│ └── robots.txt
+├── src
+│ ├── components  # components, modularized with intuitive names
+│ ├── images      # to use with sharp processing
+│ ├── pages       # main content pages
+│ └── styles      # styles, with scss
+├── .gitignore
+├── .prettierrc
+├── .eslintignore
+├── gatsby-config.js
+├── LICENSE
+└── package.json
 ```
 
 ## Contributors
@@ -22,7 +29,8 @@
  [@ChanMyaeHtoo](https://github.com/ChanMyaeHtoo) - idea, opinions, data  
  [@kzackl](https://github.com/kzackl) - idea, opinions  
  [@Nova2Shine](https://github.com/Nova2Shine) - idea, opinions  
- .. & 2 others
+ [@nyithuta](https://github.com/paidactor) - idea, opinions  
+ .. & 1 other
  
  ## Tools and Utilites
  

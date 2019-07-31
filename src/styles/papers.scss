@@ -6,7 +6,7 @@
   .paper {
     padding: 4px 5px 5px 1rem;
     &:nth-of-type(odd) {
-      background: #eeeeee;
+      background: $gray-secondary-color;
     }
     div {
       margin: 5px;

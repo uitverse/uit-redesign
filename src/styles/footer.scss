@@ -1,8 +1,7 @@
 @import "./config/variables.scss";
 
 footer {
-  //background: #f2f2f2;
-  color: #9b9b9b;
+  color: $gray-color;
   padding: 1rem 0;
   margin-top: 2rem;
   .footer--container {
@@ -18,7 +17,7 @@ footer {
       border: 1px solid #ccc;
     }
     .footer--copyright {
-      color: #000;
+      color: $black-color;
     }
   }
 }

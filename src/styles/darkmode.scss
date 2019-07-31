@@ -13,23 +13,23 @@
   .navbar .links--link,
   .hamburger-menu,
   .hamburger-menu:hover {
-    color: #dddddd;
+    color: $gray-tetiary-color;
   }
   .footer--description {
-    color: #000000;
+    color: $black-color;
   }
   .hero4 {
     background: $bg-gradient;
   }
   .news div:hover {
-    background: #000000;
+    background: $black-color;
   }
   @include respond-below(md) {
     .links {
-      background: #000000;
+      background: $black-color;
     }
   }
   .paper:nth-of-type(even) {
-    color: #fff;
+    color: $white-color;
   }
 }

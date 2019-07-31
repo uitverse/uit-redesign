@@ -13,7 +13,7 @@
       font-weight: bolder;
       a {
         text-decoration: none;
-        color: #000;
+        color: $black-color;
         border-bottom: 0;
       }
     }
@@ -40,7 +40,7 @@
       font-weight: bold;
       font-size: 30px;
       position: fixed;
-      background: #ffffff;
+      background: $white-color;
       height: 100vh;
       top: 0;
       bottom: 0;
@@ -51,7 +51,7 @@
       padding-left: 1rem;
     }
     &--link {
-      color: #000;
+      color: $black-color;
       text-decoration: none;
       margin-right: 1rem;
       border-bottom: 0;
