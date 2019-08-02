@@ -14,7 +14,7 @@ const icait2017Papers = () => (
     {data.icait2018.map((inset, index) => (
       <div className="topic" key={index}>
         <h3>{inset.topic}</h3>
-        <Fade up cascade>
+        <Fade up cascade distance="20%">
           <div className="papers">
             {inset.papers.map((item, i) => (
               <div className="paper" key={i}>

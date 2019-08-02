@@ -10,6 +10,12 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-sitemap`,
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-145101623-1",
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `UIT Redesign`,

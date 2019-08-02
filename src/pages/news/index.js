@@ -11,7 +11,7 @@ const NewsPage = () => (
     <SEO title="News & Events" />
 
     <div className="news-page">
-      <Fade up>
+      <Fade up distance="20%">
         {data.map((item, index) => {
           return (
             <div key={index}>

@@ -10,7 +10,7 @@ const ActivitiesPage = () => (
   <Layout addMargin addSidebar="news">
     <SEO title="Uni Activities" />
     <div>
-      <Fade up>
+      <Fade up distance="20%">
         {data.map((item, index) => {
           return (
             <div key={index}>
