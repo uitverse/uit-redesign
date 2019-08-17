@@ -25,13 +25,13 @@ main {
   flex-wrap: wrap;
   @include respond-below(sm) {
     flex-direction: column;
-    .sidebar {
-      widows: 100%;
-    }
   }
   .sidebar {
     width: 30%;
     flex: 1;
+    @include respond-below(sm) {
+      width: 100%;
+    }
   }
   div {
     flex: 3;
