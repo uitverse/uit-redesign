@@ -1,22 +1,30 @@
 @import "./config/variables.scss";
+@import "./config/mixins.scss";
 
 .notice {
   border: 2px solid $primary-color;
   border-radius: 10px;
-  padding: 5px 5px 5px 20px;
+  padding: 5px;
   display: flex;
   justify-content: space-between;
-  p {
-    line-height: 10px;
+  align-items: baseline;
+  @include respond-below(md) {
+    flex-direction: column;
+    align-items: unset;
+  }
+  a {
+    text-decoration: none;
+    border-bottom: 0;
+    display: block;
   }
   &--action {
-    display: block;
+    font-family: inherit;
+    font-size: 1em;
+    width: 100%;
     text-decoration: none;
-    height: 10px;
-    line-height: 10px;
     border: 2px solid $primary-color;
     border-radius: 10px;
-    padding: 1rem;
+    padding: 0.5em;
     color: $white-color;
     background: $primary-color;
   }

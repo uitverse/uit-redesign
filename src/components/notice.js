@@ -8,8 +8,8 @@ const Notice = ({ description, action }) => (
   <div className="notice">
     <p>{description}</p>
     {action ? (
-      <Link to={action.link} alt="notice" className="notice--action">
-        {action.title}
+      <Link to={action.link} alt="notice">
+        <button className="notice--action">{action.title}</button>
       </Link>
     ) : (
       ``
