@@ -15,7 +15,7 @@ const Hero = () => {
 
   return (
     <section className="hero">
-      <Fade up distance="20%">
+      <Fade up duration={500} distance="20%">
         <div
           className="hero--illustration"
           style={{
@@ -27,7 +27,7 @@ const Hero = () => {
           {/* <img src={illustration} alt="uit university" /> */}
         </div>
       </Fade>
-      <Fade up cascade distance="20%">
+      <Fade up cascade duration={500} distance="20%">
         <div className="hero--content">
           <h1 className="hero--head">
             University of <br /> Information Technology

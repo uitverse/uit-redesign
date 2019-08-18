@@ -5,7 +5,7 @@ import "../styles/hero3.scss"
 
 const hero3 = () => (
   <section className="hero3">
-    <Fade up cascade>
+    <Fade up cascade duration={500}>
       <div>
         <span className="hero3-num">06</span>
         <span className="hero3-text">Years Milestone</span>

@@ -7,7 +7,7 @@ import "../styles/sidebar.scss"
 
 const Sidebar = ({ items }) => (
   <div className="sidebar">
-    <Fade up cascade duration={500}>
+    <Fade up cascade duration={300}>
       <ul>
         {items.map((item, index) => {
           return (

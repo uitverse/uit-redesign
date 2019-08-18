@@ -5,7 +5,7 @@ import "../styles/hero4.scss"
 
 const hero3 = () => (
   <section className="hero4">
-    <Fade up cascade distance="20%">
+    <Fade up cascade duration={500} distance="20%">
       <div className="hero4--wrapper">
         <div className="quote">
           “ the graduate students from our university are able to fulfill a
