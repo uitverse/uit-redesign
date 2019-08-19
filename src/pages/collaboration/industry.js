@@ -12,10 +12,17 @@ const industryPage = () => (
     </p>
     <ul>
       <li>
-        <a href="https://www.fujitsu.com/global/">Fujitsu Limited, Japan</a>
+        <a
+          href="https://www.fujitsu.com/global/"
+          title="https://www.fujitsu.com/global"
+        >
+          Fujitsu Limited, Japan
+        </a>
       </li>
       <li>
-        <a href="https://oasmyanmar.com/en/">OAS Corporation Ltd., Japan</a>
+        <a href="https://oasmyanmar.com/en/" title="https://oasmyanmar.com/en">
+          OAS Corporation Ltd., Japan
+        </a>
       </li>
       <li>
         <span>
@@ -23,10 +30,15 @@ const industryPage = () => (
         </span>
       </li>
       <li>
-        <a href="http://www.hitachi.com/">Hitachi Limited, Japan</a>
+        <a href="http://www.hitachi.com/" title="http://www.hitachi.com">
+          Hitachi Limited, Japan
+        </a>
       </li>
       <li>
-        <a href="http://www.acromyanmar.com/">
+        <a
+          href="http://www.acromyanmar.com/"
+          title="http://www.acromyanmar.com"
+        >
           Acroquest Myanmar Co., Ltd., Japan
         </a>
       </li>
@@ -40,7 +52,12 @@ const industryPage = () => (
         <span>Myanmar Electrical and Electronic Association</span>
       </li>
       <li>
-        <a href="http://www.accessspectrum.net/">Access Spectrum</a>
+        <a
+          href="http://www.accessspectrum.net/"
+          title="http://www.accessspectrum.net"
+        >
+          Access Spectrum
+        </a>
       </li>
     </ul>
   </Layout>

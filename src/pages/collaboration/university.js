@@ -13,25 +13,36 @@ const universityPage = () => (
     </p>
     <ul>
       <li>
-        <a href="https://www.jaist.ac.jp/english/">
+        <a
+          href="https://www.jaist.ac.jp/english/"
+          title="https://www.jaist.ac.jp"
+        >
           Japan Advanced Institute of Science and Technology (JAIST)
         </a>
       </li>
       <li>
-        <a href="http://en.saitama-u.ac.jp/">Saitama University, Japan</a>
+        <a href="http://en.saitama-u.ac.jp/" title="http://en.saitama-u.ac.jp">
+          Saitama University, Japan
+        </a>
       </li>
       <li>
-        <a href="http://en.saitama-u.ac.jp/">
+        <a href="http://en.saitama-u.ac.jp/" title="http://en.saitama-u.ac.jp">
           Nagaoka University of Technology, Japan
         </a>
       </li>
       <li>
-        <a href="http://www.okayama-u.ac.jp/index_e.html">
+        <a
+          href="http://www.okayama-u.ac.jp/index_e.html"
+          title="http://www.okayama-u.ac.jp"
+        >
           Okayama University, Japan
         </a>
       </li>
       <li>
-        <a href="https://www.aoyama.ac.jp/en/">
+        <a
+          href="https://www.aoyama.ac.jp/en/"
+          title="https://www.aoyama.ac.jp/en"
+        >
           Aoyama Gakuin University, Japan
         </a>
       </li>
@@ -41,41 +52,64 @@ const universityPage = () => (
         </span>
       </li>
       <li>
-        <a href="https://www.iuj.ac.jp/gsim/">
+        <a
+          href="https://www.iuj.ac.jp/gsim/"
+          title="https://www.iuj.ac.jp/gsim"
+        >
           Graduate School of International Management, International University
           of Japan (IUJ), Japan
         </a>
       </li>
       <li>
-        <a href="https://www.kw.ac.kr/en/index.do">
+        <a
+          href="https://www.kw.ac.kr/en/index.do"
+          title="https://www.kw.ac.kr/en"
+        >
           Kwangwoon University, Korea
         </a>
       </li>
       <li>
-        <a href="http://www.kau.ac.kr/page/english/main.jsp">
+        <a
+          href="http://www.kau.ac.kr/page/english/main.jsp"
+          title="http://www.kau.ac.kr/page/english"
+        >
           Korea Aerospace University, Korea
         </a>
       </li>
       <li>
-        <a href="https://uni.dongseo.ac.kr/eng/">Dongseo University, Korea</a>
+        <a
+          href="https://uni.dongseo.ac.kr/eng/"
+          title="https://uni.dongseo.ac.kr/eng"
+        >
+          Dongseo University, Korea
+        </a>
       </li>
       <li>
-        <a href="http://www.bdu.ac.kr/eng/01_about.html">
+        <a
+          href="http://www.bdu.ac.kr/eng/01_about.html"
+          title="http://www.bdu.ac.kr/eng"
+        >
           Busan Digital University, Korea
         </a>
       </li>
       <li>
-        <a href="https://www.jejunu.ac.kr/eng/">
+        <a
+          href="https://www.jejunu.ac.kr/eng/"
+          title="https://www.jejunu.ac.kr/eng"
+        >
           Jeju National University, Korea
         </a>
       </li>
       <li>
-        <a href="https://ssru.ac.th/en/about/ssru">
+        <a
+          href="https://ssru.ac.th/en/about/ssru"
+          title="https://ssru.ac.th/en/about/ssru"
+        >
           Suan Sunandha Rajabhat University, Thailand
         </a>
       </li>
       <li>
-        <a href="http://www.must.edu.my/">
+        <a href="http://www.must.edu.my/" title="http://www.must.edu.my">
           Malaysia University of Science and Technology (MUST)
         </a>
       </li>
