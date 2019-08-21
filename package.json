@@ -1,8 +1,6 @@
 {
   "name": "uit-redesign",
-  "private": true,
   "description": "Me and my team decided to do a UIT website experimental redesign",
-  "version": "0.1.0",
   "author": "Frenco Jobs <frenco.willian@gmail.com>",
   "dependencies": {
     "darkmode-js": "^1.4.0",
