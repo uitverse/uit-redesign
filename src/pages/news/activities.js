@@ -17,7 +17,7 @@ const ActivitiesPage = () => (
               <h4>{item.title}</h4>
               <p>{item.body}</p>
               {item.more ? (
-                <a href={item.more}>
+                <a href={item.more} title={item.more}>
                   Read More <ArrowRight size="20" color="#008080" />
                 </a>
               ) : (
