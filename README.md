@@ -23,14 +23,14 @@ uit-redesign
 
 ## Contributors
 
- [@eiphyuthikhaing](https://github.com/eiphyuthikhaing) - idea, opinions  
- [@frencojobs](https://github.com/frencojobs) - idea, opinions, data, code  
- [@naisoehtut](https://github.com/test1-test1) - idea, opinions  
- [@ChanMyaeHtoo](https://github.com/ChanMyaeHtoo) - idea, opinions, data  
- [@kzackl](https://github.com/kzackl) - idea, opinions  
- [@Nova2Shine](https://github.com/Nova2Shine) - idea, opinions  
- [@nyithuta](https://github.com/paidactor) - idea, opinions  
- .. & 1 other
+ - Khaing Hsu Hlaing [[github](https://github.com/Nova2Shine)]
+ - (Me)Kyaw Swar Tun [[github](https://github.com/frencojobs)] 
+ - Ei Phyu Thi Khaing [[github](https://github.com/eiphyuthikhaing)]
+ - Naing Soe Htut [[github](https://github.com/test1-test1)]
+ - Chan Myae Htoo [[github](https://github.com/ChanMyaeHtoo)]
+ - Kyaw Zayar Linn [[github](https://github.com/kzackl)]
+ - Nyi Thuta[[github](https://github.com/paidactor)]
+ - Su Sandi Ko []
  
  ## Tools and Utilites
  
