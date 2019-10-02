@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `UIT`,
-    siteUrl: `https://uit.netlify.com`,
+    siteUrl: `https://uit.projects.frenco.codes`,
     description: `Experimental Redesign for UIT`,
     author: `@frencojobs`,
   },
