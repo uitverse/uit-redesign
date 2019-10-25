@@ -1,6 +1,5 @@
 module.exports = {
   data: {
-    upcomings: [
-    ]
-  }
+    upcomings: [],
+  },
 }

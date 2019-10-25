@@ -1,9 +1,10 @@
 # UIT Website Experimental Redesign Proposal
 
 ## Folder Structure
+
 ```
 uit-redesign
-├── data          # data .. news, and papers 
+├── data          # data .. news, and papers
 ├── static
 │ ├── fonts
 │ ├── images
@@ -23,22 +24,22 @@ uit-redesign
 
 ## Contributors
 
- - Khaing Hsu Hlaing [[github](https://github.com/Nova2Shine)]
- - (Me)Kyaw Swar Tun [[github](https://github.com/frencojobs)] 
- - Ei Phyu Thi Khaing [[github](https://github.com/eiphyuthikhaing)]
- - Naing Soe Htut [[github](https://github.com/test1-test1)]
- - Chan Myae Htoo [[github](https://github.com/ChanMyaeHtoo)]
- - Kyaw Zayar Linn [[github](https://github.com/kzackl)]
- - Nyi Thuta[[github](https://github.com/paidactor)]
- - Su Sandi Ko []
- 
- ## Tools and Utilites
- 
- - Gatsby
- - React
- - React-Feather
- - Node-Sass
- - Prettier
- - Figma
- - Darkmode-js
- .. view more at package.json
+- Khaing Hsu Hlaing  
+- Ei Phyu Thi Khaing  
+- Naing Soe Htut  
+- Chan Myae Htoo  
+- Kyaw Zayar Linn  
+- Nyi Thuta  
+- Su Sandi Ko  
+- Kyaw Swar Tun  
+
+## Tools and Utilites
+
+- Gatsby
+- React
+- React-Feather
+- Node-Sass
+- Prettier
+- Figma
+- Darkmode-js
+  .. view more at package.json
